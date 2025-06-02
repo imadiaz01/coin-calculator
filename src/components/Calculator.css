@@ -7,6 +7,7 @@ button {
 input {
   display: block;
   margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.329);
 }
 
 .button-no {
@@ -16,12 +17,12 @@ input {
 
 button {
   border: 1px solid gray;
-  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.281);
   margin-right: 5px;
 }
 button:nth-last-child(2),
 button:nth-last-child(1) {
-  background: tomato;
+  background: rgba(255, 99, 71, 0.247);
   color: white;
 }
 
@@ -33,7 +34,8 @@ button:nth-last-child(1) {
 
 
 .calculator-icon {
-    max-width: 3dvw ;
-    max-height: 3dvh ;
+    max-width: 2dvw ;
+    max-height: 2dvh ;
+    padding-right: 1dvw;
   }
 

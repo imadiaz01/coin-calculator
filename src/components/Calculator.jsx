@@ -85,7 +85,7 @@ tiltCardStyle();
         <input
           ref={inputRef}
           type="number"
-          placeholder="Type a number"
+          placeholder="Amount of Coins"
         />
         <div className="result-display">
         <p>Result: <span ref={resultRef}>{result}</span></p>
