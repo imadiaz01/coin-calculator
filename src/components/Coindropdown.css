@@ -1,0 +1,80 @@
+/* coinDropdown.css */
+
+
+
+
+.coin-dropdown__search-input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 12px;
+  border: 1.5px solid #555;
+  border-radius: 6px;
+  background-color: #2f2f2f;
+  color: #ddd;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.coin-dropdown__search-input:focus {
+  border-color: #999;
+  outline: none;
+  background-color: #3a3a3a;
+}
+
+.dropdown-container {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  max-height: 20rem;
+  overflow-y: auto;
+  position: absolute;
+  width: 17rem;
+  margin-top: -1rem;
+
+}
+
+.coin-item {
+   
+  align-items: center;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  color: #eee;
+}
+
+.coin-item:hover {
+  background-color: #333;
+}
+
+.coin-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.coin-info img {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  background-color: #444;
+  object-fit: contain;
+}
+
+.coin-info span {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+}
+
+.coin-price span { 
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.coin-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

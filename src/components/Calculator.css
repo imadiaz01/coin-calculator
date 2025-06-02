@@ -1,0 +1,40 @@
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.button-no {
+    display: none;
+  
+  }
+
+button {
+  border: 1px solid gray;
+  background: rgb(0, 0, 0);
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
+
+.calculator-header {
+ display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+
+.calculator-icon {
+    max-width: 3dvw ;
+    max-height: 3dvh ;
+  }
+
+
